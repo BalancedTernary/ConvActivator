@@ -1,3 +1,5 @@
+import torch
+
 class ConvActivator(torch.nn.Module):
     def __init__(self,in_channels,out_channels,kernel_size=5,**kwargs):
         super(ConvActivator, self).__init__()
